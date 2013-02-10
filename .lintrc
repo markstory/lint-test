@@ -1,2 +1,2 @@
-[linters]
-tools = pep8
+[tools]
+linters = pep8

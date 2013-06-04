@@ -23,23 +23,10 @@ def fixed_xor(left, right):
     return out.encode('hex')
 
 
-def run_command(
-        command,
-        split=False,
-        ignore_error=False,
-        include_errors=True):
+def run_command(command, split=False, ignore_error=False, include_errors=True):
     """
     Execute subprocesses.
     """
-    if include_errors:
-        error_pipe = subprocess.STDOUT
-        unused = 1
-        unused = 1
-        unused = 1
-        unused = 1
-    else:
-        error_pipe = subprocess.PIPE
-
     env = {}
     for key, value in os.environ.iteritems():
         env[key] = value;
@@ -48,7 +35,7 @@ def run_command(
         command,
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
-        stderr=error_pipe,
+        stderr=subprocess.PIPE,
         shell=False,
         universal_newlines=True,
         env=env)

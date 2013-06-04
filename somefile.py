@@ -34,6 +34,9 @@ def run_command(
     if include_errors:
         error_pipe = subprocess.STDOUT
         unused = 1
+        unused = 1
+        unused = 1
+        unused = 1
     else:
         error_pipe = subprocess.PIPE
 

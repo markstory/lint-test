@@ -38,3 +38,7 @@ def run_command(
     if return_code and not ignore_error:
         raise Exception('Failed to execute %s', command)
     return data
+
+def do_thing():
+    print 'thinger'
+    print 'thing 2'

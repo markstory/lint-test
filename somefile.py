@@ -41,3 +41,4 @@ def run_command(
 
 def do_thing():
     print 'thinger'
+    print 'thing 2'

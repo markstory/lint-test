@@ -5,6 +5,9 @@ import os
 log = logging.getLogger(__name__)
 
 
+THING = 'test'
+
+
 def run_command(
         command,
         split=False,

@@ -1,5 +1,5 @@
+---
 linters:
-  pep8:
+  flake8:
+    max-line-length: 115
   jshint:
-  commitcheck:
-    pattern = '(?:[Ii]ssues?|[Ss]ees?|[Rr]ef(?:erences?|s?)|[Ff]ix(?:es)?|[Cc]loses?)\s+(?:#\d+|[a-zA-Z]+\-\d+)'

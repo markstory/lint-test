@@ -13,7 +13,7 @@ def run_command(
     """
     Execute subprocesses.
     """
-    log.debug('Running %s', ' '.join(command))
+    log.debug('Running a really long command that is longer than 80 chars %s', ' '.join(command))
 
     env = os.environ.copy()
 

@@ -1,4 +1,6 @@
 linters:
+  phpcs:
+    standard: CakePHP
   pep8:
   jshint:
   commitcheck:

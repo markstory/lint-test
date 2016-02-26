@@ -5,6 +5,13 @@ import os
 log = logging.getLogger(__name__)
 
 
+def funcName(stuff):
+    if thing:
+        return True
+    else:
+        return False
+
+
 def run_command(
         command,
         split=False,

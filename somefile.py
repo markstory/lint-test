@@ -43,5 +43,6 @@ def do_thing():
     print 'thinger'
     print 'thing 2'
 
+
 def doOtherThing(one, unused=None, three):
-    print(two)
+     print(nope)

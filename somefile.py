@@ -43,6 +43,10 @@ def do_thing():
     print 'thinger'
     print 'thing 2'
 
+# Create unused imports
+import os, re
 
-def doOtherThing(one, unused=None, three):
-     print(nope)
+def thing(self):
+    thing_two('arg1',
+     'arg2')
+    print 'derp'

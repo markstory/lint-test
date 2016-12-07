@@ -42,3 +42,10 @@ def run_command(
 def do_thing():
     print 'thinger'
     print 'thing 2'
+
+def do_thing(*args):
+  print 'not 4 spaces'
+
+def doThing(arg) :
+    do_thing(arg[1
+        arg[2]])

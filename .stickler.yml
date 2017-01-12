@@ -1,5 +1,6 @@
 linters:
   phpcs:
+    standard: WordPress
   flake8:
   eslint:
   rubocop:

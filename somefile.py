@@ -4,6 +4,9 @@ import os
 
 log = logging.getLogger(__name__)
 
+def funnyFunc():
+  log.error('Oh noes')
+
 
 def run_command(
         command,

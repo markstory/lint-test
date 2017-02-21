@@ -2,3 +2,5 @@ linters:
   standardjs:
   jscs:
     enabled: false
+  flake8:
+    enabled: false

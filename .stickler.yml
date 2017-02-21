@@ -1,6 +1,6 @@
 linters:
   standardjs:
   jscs:
-    enabled: false
+    enable: false
   flake8:
-    enabled: false
+    enable: false

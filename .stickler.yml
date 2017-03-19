@@ -1,5 +1,5 @@
 linters:
   pep8:
   phpcs:
-    standard: 'PSR2'
+    standard: 'build/phpcs.xml'
     exclude: 'Generic.Files.LineLength,Derp'

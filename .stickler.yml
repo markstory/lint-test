@@ -2,4 +2,3 @@ linters:
   pep8:
   phpcs:
     standard: 'build/phpcs.xml'
-    exclude: 'Generic.Files.LineLength,Derp'

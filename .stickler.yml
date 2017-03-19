@@ -2,4 +2,4 @@ linters:
   pep8:
   phpcs:
     standard: 'PSR2'
-    exclude: 'Generic.Files.LineLength'
+    exclude: 'Generic.Files.LineLength,Derp'

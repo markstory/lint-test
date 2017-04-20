@@ -4,10 +4,6 @@
 
     <file>.</file>
 
-    <exclude-pattern>*/Regression/*</exclude-pattern>
-    <exclude-pattern>*/_files/*</exclude-pattern>
-    <exclude-pattern>../tests/bootstrap.php</exclude-pattern>
-
     <rule ref="PSR2">
         <exclude name="Generic.Files.LineLength"/>
     </rule>

@@ -1,4 +1,6 @@
 linters:
-  pep8:
   phpcs:
-    standard: 'build/phpcs.xml'
+    standard: PSR2
+    ignore:
+      - build/*
+      - others/*

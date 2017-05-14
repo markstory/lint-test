@@ -1,4 +1,4 @@
 linters:
   pep8:
   checkstyle:
-    config: ass.xml
+    config: checkstyle.xml

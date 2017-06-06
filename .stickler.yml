@@ -2,4 +2,5 @@
 linters:
   flake8:
     max-line-length: 115
+    ignore: E128,E265,F403
   jshint:

@@ -1,2 +1,6 @@
 linters:
   flake8:
+
+ignore:
+  files:
+    - "*/files/*

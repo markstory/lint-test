@@ -1,7 +1,1 @@
-ignore:
-  files:
-    - */files/*
-
-linters:
-  pep8:
-  jshint:
+herp: derp

@@ -4,5 +4,6 @@ linters:
   eslint:
     config: ./eslint.json
   rubocop:
+  swiftlint:
   phpcs:
     standard: PSR2

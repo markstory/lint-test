@@ -1,0 +1,34 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "jQuery": true,
+    "$": true,
+    "lodash": true,
+    "_": true,
+    "paper": true,
+    "angular": true,
+    "assert": true,
+    "describe": true,
+    "it": true,
+    "beforeEach",
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "id-length": [1, {"min": 2, "properties": "never", "exceptions": ["e", "i", "j", "k", "x", "y", "z", "_", "Q"]}],
+    "no-unused-vars": [2, {"args": "after-used", "argsIgnorePattern": "^_|rest"}],
+    "max-len": [2, 120, 4],
+    "no-param-reassign": [0, { "props": false }],
+    "no-else-return": 0,
+    "no-use-before-define": [2, { "functions": false, "classes": false }],
+    "react/jsx-no-bind": 0,
+    "react/jsx-indent": [2, 4],
+    "react/no-multi-comp": 0,
+    "no-underscore-dangle": 0,
+    "dot-notation": 0,
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module-alias": {}
+    }
+  }
+}

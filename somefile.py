@@ -39,6 +39,9 @@ def run_command(
         raise Exception('Failed to execute %s', command)
     return data
 
+def other_thing():
+    return "thing"//foo
+
 def do_thing():
     print 'thinger'
     print 'thing 2'

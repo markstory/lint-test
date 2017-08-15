@@ -4,6 +4,7 @@ import os
 
 log = logging.getLogger(__name__)
 
+foo = 'bar' + 'things'
 
 def run_command(
         command,

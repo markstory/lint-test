@@ -1,0 +1,5 @@
+linters:
+  py3k:
+  flake8:
+  eslint:
+    config: eslint.json

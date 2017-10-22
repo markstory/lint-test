@@ -42,3 +42,8 @@ def run_command(
 def do_thing():
     print 'thinger'
     print 'thing 2'
+
+def things():
+    print 'thinger'
+    from urlparse import urlparse
+    urlparse('example.com')

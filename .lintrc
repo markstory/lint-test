@@ -1,5 +1,8 @@
 [tools]
-linters = pep8, jshint, commitcheck
+linters = flake8, commitcheck, py3k, eslint
 
 [tool_commitcheck]
 pattern = '(?:[Ii]ssues?|[Ss]ees?|[Rr]ef(?:erences?|s?)|[Ff]ix(?:es)?|[Cc]loses?)\s+(?:#\d+|[a-zA-Z]+\-\d+)'
+
+[tool_eslint]
+config = eslint.json

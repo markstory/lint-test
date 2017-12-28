@@ -1,8 +1,5 @@
 [tools]
-linters = phpcs, pep8, jshint, commitcheck
-
-[tool_commitcheck]
-pattern = '(?:[Ii]ssues?|[Ss]ees?|[Rr]ef(?:erences?|s?)|[Ff]ix(?:es)?|[Cc]loses?)\s+(?:#\d+|[a-zA-Z]+\-\d+)'
+linters = flake8, phpcs
 
 [tool_phpcs]
 fixer = true

@@ -1,0 +1,9 @@
+---
+linters:
+  phpcs:
+    standard: PSR2
+    fixer: true
+
+fixers:
+  enable: true
+  workflow: commit

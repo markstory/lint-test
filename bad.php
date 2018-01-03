@@ -11,7 +11,8 @@
  *
  * @return void
  */
-function testFunc($some_other_var) {
-	$test_var = $some_other_var / 2;
-	return $test_var * 3;
+function testFunc($some_other_var)
+{
+    $test_var = $some_other_var / 2;
+    return $test_var * 3;
 }

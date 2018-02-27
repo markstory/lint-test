@@ -1,6 +1,6 @@
 linters:
   phpcs:
-    standard: WordPress
+    standard: CakePHP
   flake8:
   eslint:
   rubocop:

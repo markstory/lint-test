@@ -1,0 +1,12 @@
+---
+linters:
+  phpcs:
+    standard: PSR2
+    fixer: true
+  eslint:
+    config: eslint.json
+    fixer: true
+
+fixers:
+  enable: true
+  workflow: commit

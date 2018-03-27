@@ -46,3 +46,6 @@ def do_thing():
 
 def fail():
     print 'thing'
+    run_command(a,
+            b,
+                    c)

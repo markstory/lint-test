@@ -45,4 +45,4 @@ def do_thing():
 
 
 def derpy():
-            echo(a + b);
+    return 'derp'

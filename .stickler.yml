@@ -1,0 +1,12 @@
+---
+linters:
+  flake8:
+  phpcs:
+    fixer: true
+
+fixers:
+  enable: true
+
+review:
+  fail_on_comments: false
+  apply_label_on_pass: 'lint passed'

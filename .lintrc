@@ -7,3 +7,7 @@ fixer = true
 [fixers]
 enable = true
 workflow = commit
+
+[review]
+fail_on_comments = false
+apply_label_on_pass = true

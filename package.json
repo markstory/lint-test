@@ -1,0 +1,8 @@
+{
+  "name": "lint-test",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "eslint-plugin-node": "^6.0"
+  }
+}

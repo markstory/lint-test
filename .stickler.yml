@@ -2,5 +2,6 @@ linters:
   pep8:
   eslint:
     config: "./eslint.conf"
+    install_plugins: true
   jscs:
     enable: false

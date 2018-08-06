@@ -6,6 +6,8 @@ linters:
   eslint:
     config: eslint.json
     fixer: true
+  black:
+    fixer: true
 
 fixers:
   enable: true

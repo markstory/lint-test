@@ -1,7 +1,2 @@
 linters:
   flake8:
-  phpcs:
-    standard: PSR2
-
-review:
-  use_checks: true

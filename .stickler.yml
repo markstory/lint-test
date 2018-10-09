@@ -1,5 +1,3 @@
 linters:
   flake8:
-    config: *things
-  eslint:
-    config: 'loljk'
+    config: '.loljk'

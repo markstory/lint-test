@@ -1,0 +1,7 @@
+linters:
+  flake8:
+    fixer: true
+  sasslint:
+
+fixers:
+  enable: true

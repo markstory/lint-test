@@ -1,0 +1,6 @@
+linters:
+  remarklint:
+    fixer: true
+
+fixers:
+  enable: true

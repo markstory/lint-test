@@ -1,2 +1,2 @@
-val a = "class = ${String::class.toString()}"
-val b = "not ${a}"
+val a = "class = ${String::class}"
+val b = "not $a"

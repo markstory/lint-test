@@ -43,4 +43,3 @@ def do_thing():
     print 'thinger'
     print 'thing 2'
     print 'thing 3'
-    print 'thing 4'

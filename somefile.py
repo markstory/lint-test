@@ -1,6 +1,7 @@
+import requests
+import os
 import subprocess
 import logging
-import os
 
 log = logging.getLogger(__name__)
 

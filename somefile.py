@@ -1,10 +1,11 @@
-import requests
 import os
+import re
 import subprocess
 import logging
 
 log = logging.getLogger(__name__)
 
+pattern = re.compile(r'^[a-z]')
 
 def run_command(
         command,

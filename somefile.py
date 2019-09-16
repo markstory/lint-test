@@ -1,5 +1,5 @@
-import os
 import re
+import os
 import subprocess
 import logging
 

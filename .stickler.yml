@@ -1,5 +1,4 @@
 ---
 linters:
   flake8:
-    isort: true
 

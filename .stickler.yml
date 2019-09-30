@@ -1,5 +1,8 @@
 ---
 linters:
+  eslint:
+    config: eslint.json
+    install_plugins: true
   flake8:
     plugins:
       - flake8-pytest

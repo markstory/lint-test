@@ -6,5 +6,4 @@ linters:
   flake8:
     plugins:
       - flake8-pytest
-      - flake8-isort
 

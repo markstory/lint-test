@@ -2,6 +2,7 @@ import re
 import os
 import subprocess
 import logging
+import collection
 
 log = logging.getLogger(__name__)
 
@@ -44,3 +45,10 @@ def run_command(
 def do_thing():
     print 'thinger'
     print 'thing 2'
+
+
+import unittest
+class ThingTest(unittest.TestCase):
+
+    def test_thing(self):
+        self.assertEqual(1, 2)

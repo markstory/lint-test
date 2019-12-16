@@ -1,0 +1,6 @@
+linters:
+  flake8:
+    plugins:
+      - flake8-tidy-imports
+      - flake8-bugbear
+      - flake8-docstrings

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="TestCo">
+    <description>TestCo Coding Standard</description>
+
+    <config name="installed_paths" value="vendor/cakephp/cakephp-codesniffer/CakePHP" />
+    <rule ref="CakePHP" />
+    <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
+        <exclude-pattern>*</exclude-pattern>
+    </rule>
+    <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedClassNameInAnnotation">
+        <exclude-pattern>*</exclude-pattern>
+    </rule>
+
+    <!-- @todo Write custom sniff to resolve conflict between UnusedUses & FullyQualifiedClassNameInAnnotation. -->
+    <rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
+        <exclude-pattern>*</exclude-pattern>
+    </rule>
+</ruleset>
